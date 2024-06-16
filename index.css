@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, Times, 'Times New Roman', serif;
    background-color: #ddd;
 }
 
@@ -16,12 +16,13 @@ body {
 }
 
 .img {
-    height: 70px;
+    margin-top: 10px;
 }
 
 
 nav {
-    width: 100vw; 
+    width: 80vw; 
+    height: 55px;
     background-color: rgba(17, 83, 140, 1);
     color: white; 
     align-items: center;
@@ -97,6 +98,7 @@ p {
     box-shadow: 0 0 10px #888;
 }
 footer {
+    height: 55px;
     background-color: #333;
     color: #fff;
     padding: 10px 0;

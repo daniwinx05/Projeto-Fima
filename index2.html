@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -17,51 +16,52 @@
             <div class="logo">
                 <img src="logo-fortes.png" alt="Fortes Engenharia">
             </div>
-
-            <nav class="nav-bar">
+            <nav>
                 <a href="index.html">
-                    <i class='bx bx-menu'></i> Home
+                <button class="botao-home">HOME</button>	
                 </a>
-                <a class="atual" href="#">
-                    <i class='bx bxs-down-arrow'></i> Entrar
-                </a>
-                <a href="#">
-                    <i class='bx bx-menu'></i> Cadastrar
-                </a>
-                <a href="#">
-                    <i class='bx bx-menu'></i> Suporte/ajuda
-                </a>
+                <button class="botao-ajuda">SUPORTE/AJUDA</button>
             </nav>
         </div>
     </header>
 
-    <div class="titulo">
-        <h1>| Login da Instituição</h1>
+    <main>
+<div class="login-container">
+        <div class="titulo">
+            <h1>| Login da Instituição</h1>
+        </div>
+        <div class="container">
+            <form>
+                <div class="icone">
+                    <i class='bx bxs-contact'></i>
+                </div>
+                <div class="form-group">
+                    <label for="nome-instituicao">Nome da Instituição:</label>
+                    <input type="text" id="nome-instituicao" placeholder="Nome da Instituição">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" placeholder="Senha">
+                </div>
+
+                <a href="#" class="forgot-password">Esqueci minha senha.</a>
+                <br>
+
+                <div class="ent">
+                    <a href="form.html" class="button">Entrar</a>
+                </div>
+
+
+            </form>
+        </div>
     </div>
 
-    <div class="container">
-        <form>
-
-            <div class="icone">
-                <i class='bx bxs-contact' ></i>
-            </div>
-            
-
-            <div class="form-group">
-                <label for="nome-instituicao">Nome da Instituição:</label>
-                <input type="text" id="nome-instituicao" placeholder="Nome da Instituição">
-            </div>
-            <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" id="email" placeholder="Email">
-            </div>
-            <div class="form-group">
-                <label for="senha">Senha:</label>
-                <input type="password" id="senha" placeholder="Senha">
-            </div>
-            <a href="#" class="forgot-password">Esqueci minha senha.</a>
-            <button type="submit">Entrar</button>
-        </form>
-    </div>
+    </main>
+    
 </body>
+
 </html>
